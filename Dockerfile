@@ -10,5 +10,6 @@ RUN apt-get update && apt-get install -y
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python get-pip.py
 RUN pip install ipykernel -U --user --force-reinstall
+RUN pip install wandb --upgrade
 
 # 이후 Conda와 같은 가상환경이 아니라 그냥 Global python3.6 사용
