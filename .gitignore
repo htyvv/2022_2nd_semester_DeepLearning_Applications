@@ -141,5 +141,6 @@ run*
 
 # model check points
 *.ckpt
+*.gz
 model_save.ckpt
 hty
